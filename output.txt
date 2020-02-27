@@ -1,0 +1,24 @@
+OSS: started child 0 for number 101 at time 0 s 0 ns
+OSS: started child 1 for number 105 at time 0 s 10000 ns
+OSS: Child 25484 has terminated at time 0 s 320940000 ns
+OSS: Child 25483 has terminated at time 0 s 320950000 ns
+OSS: started child 2 for number 109 at time 0 s 320950000 ns
+OSS: started child 3 for number 113 at time 0 s 320960000 ns
+OSS: Child 25486 has terminated at time 0 s 576290000 ns
+OSS: started child 4 for number 117 at time 0 s 576290000 ns
+OSS: Child 25487 has terminated at time 0 s 576290000 ns
+OSS: Child 25488 has terminated at time 0 s 880680000 ns
+OSS: started child 5 for number 121 at time 0 s 880690000 ns
+OSS: Child 25489 has terminated at time 1 s 219630000 ns
+OSS: started child 6 for number 125 at time 1 s 219630000 ns
+OSS: Child 25490 has terminated at time 1 s 546390000 ns
+OSS: started child 7 for number 129 at time 1 s 546400000 ns
+OSS: Child 25491 has terminated at time 1 s 881720000 ns
+OSS: started child 8 for number 133 at time 1 s 881730000 ns
+OSS: Child 25492 has terminated at time 2 s 205660000 ns
+OSS: started child 9 for number 137 at time 2 s 205660000 ns
+OSS: Child 25493 has terminated at time 2 s 546890000 ns
+Simulation done, 10 children done at time 2 s 546890000 ns
+Primes: 101 109 113 125 137
+Not Primes: -105 -117 -121 -129 -133
+Not Checked:
