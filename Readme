@@ -1,0 +1,19 @@
+To compile we used the make command
+$make
+
+after compiltion  we can find oss and user files which will be green color, which are executable files.
+2. Execute
+To execute the program
+./oss -n 5 -s 2 -b 101 -i 4 -o output.txt
+when we run, it take several command line options.
+First, -h, to describe how it should be run
+a -n x option to indicate the maximum total of child processes it will ever create. 
+ Another option, -s, will indicatehow many children should be allowed to exist in the system at the same time.  
+ the default being of a -n of 4and a -s of 2.  
+Additional options are -b to indicate the start of the sequence of numbers we are to test for primality,
+a -i option for the increment between numbers that we test and 
+finally a -o option specifying an output file.
+Then oss would want to fork/exec off 2 child processes but then not create any more until one of them terminated.Once one had terminated, it would create another, continuing this until it had created a total of 5 children ever.  Atthat point it would wait until all of them had terminated.  When done, it would output appropriate information tothe output.log file.  The -b and -i parameters would mean that our 10 child processes would check the primality ofthe numbers 101, 105, 109, 1013 and 107 (5 different numbers, one for each child launched)
+ Version  Control:
+I pushed all these files in to  github.
+/classes/OS/gorantla/gorantla.1/log
